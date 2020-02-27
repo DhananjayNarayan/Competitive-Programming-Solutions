@@ -8,11 +8,8 @@
 #Multiply A by C.
 #Add C to B.
 #Output new values of A and B.
-
-#SAMPLE INPUT:
-#13 5 2
-#SAMPLE OUTPUT:
-#10 15
+#SAMPLE INPUT:13 5 2
+#SAMPLE OUTPUT:10 15
 
 a,b,c=map(int,input().split())
 a,b=b,a
