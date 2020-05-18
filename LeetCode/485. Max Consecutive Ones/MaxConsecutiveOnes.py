@@ -8,8 +8,8 @@ class Solution:
             if i==1:
                 cons_count+=1
             else :
-                if(cons_count>max_count):
-                    max_count=cons_count
+                if(cons_count>max_count): 
+                    max_count=cons_count  
                 cons_count=0
                     
                         
