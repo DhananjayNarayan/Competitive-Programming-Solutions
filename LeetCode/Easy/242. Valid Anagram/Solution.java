@@ -8,7 +8,7 @@ class Solution {
         int[] charCount = new int[26];
         
         for(int i=0;i<s.length();i++){
-            charCount[s.charAt(i)-'a']++;
+            charCount[s.charAt(i)-'a']++;  //z-a -> charCount[25]( to represent z)
             charCount[t.charAt(i)-'a']--;
         }
         
